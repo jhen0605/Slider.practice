@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7532676261B5848006311C6 /* harryPotterMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7532675261B5848006311C6 /* harryPotterMusic.mp3 */; };
 		A7DD47FA261660710004A14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD47F9261660710004A14B /* AppDelegate.swift */; };
 		A7DD47FC261660710004A14B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD47FB261660710004A14B /* SceneDelegate.swift */; };
 		A7DD47FE261660710004A14B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DD47FD261660710004A14B /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7532675261B5848006311C6 /* harryPotterMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harryPotterMusic.mp3; sourceTree = "<group>"; };
 		A7DD47F6261660710004A14B /* Slider練習.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider練習.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DD47F9261660710004A14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7DD47FB261660710004A14B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		A7DD47F8261660710004A14B /* Slider練習 */ = {
 			isa = PBXGroup;
 			children = (
+				A7532675261B5848006311C6 /* harryPotterMusic.mp3 */,
 				A7DD47F9261660710004A14B /* AppDelegate.swift */,
 				A7DD47FB261660710004A14B /* SceneDelegate.swift */,
 				A7DD47FD261660710004A14B /* ViewController.swift */,
@@ -127,6 +130,7 @@
 				A7DD4806261660720004A14B /* LaunchScreen.storyboard in Resources */,
 				A7DD4803261660720004A14B /* Assets.xcassets in Resources */,
 				A7DD4801261660710004A14B /* Main.storyboard in Resources */,
+				A7532676261B5848006311C6 /* harryPotterMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,9 +6,11 @@
 //
 
 import UIKit
-
+import AVFoundation
 class ViewController: UIViewController {
 
+    let player = AVPlayer()
+    
     //IBO
     @IBOutlet weak var harryPotter: UIImageView!
     @IBOutlet weak var portKey: UIImageView!
@@ -25,8 +27,13 @@ class ViewController: UIViewController {
         owl.transform = CGAffineTransform.identity.rotated(by: CGFloat.pi/180*degrees).translatedBy(x: 20, y: -250)
     }
     
+    //背景音樂
     override func viewDidLoad() {
         super.viewDidLoad()
+        let fileUrl = Bundle.main.url(forResource: "harryPotterMusic", withExtension: "mp3")!
+                let playerItem = AVPlayerItem(url: fileUrl)
+                player.replaceCurrentItem(with: playerItem)
+                player.play()
     }
         
     //哈利波特、港口鑰的水平移動與滑軌設定
@@ -54,5 +61,6 @@ class ViewController: UIViewController {
         
     //貓頭鷹繞圈角度
         updateLocation(degrees: CGFloat(sender.value/2)+270)
+        
         }
-    }
+}
